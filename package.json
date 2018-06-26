@@ -11,8 +11,8 @@
     "url": "git+https://github.com/mhdawson/google-auth-wrapper.git"
   },
   "dependencies": {
-    "google-auth-library": "^0.9.7",
-    "googleapis": "^5.0.0"
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^16.0.0"
   },
   "keywords": [
     "google",
