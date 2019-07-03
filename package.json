@@ -4,7 +4,9 @@
   "description": "Wrapper to simplify interaction with google oauth apis",
   "main": "lib/googleAuthWrapper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -12,7 +14,8 @@
   },
   "dependencies": {
     "google-auth-library": "^0.9.7",
-    "googleapis": "^5.0.0"
+    "googleapis": "^5.0.0",
+    "snyk": "^1.189.0"
   },
   "keywords": [
     "google",
@@ -26,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/mhdawson/google-auth-wrapper/issues"
   },
-  "homepage": "https://github.com/mhdawson/google-auth-wrapper#readme"
+  "homepage": "https://github.com/mhdawson/google-auth-wrapper#readme",
+  "snyk": true
 }
